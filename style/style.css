@@ -1,0 +1,26 @@
+/* This section is for general tag styling */
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* This section is the by class styling */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+/* This section is for by ID styling */
+#version {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    padding: 4px 8px;
+    height: auto;
+    font-size: 0.95em;
+}
